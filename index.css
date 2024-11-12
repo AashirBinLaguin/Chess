@@ -1,0 +1,91 @@
+
+
+body {
+   
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    position: relative;
+    top: 50px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablero-ajedrez {
+    display: grid;
+    width: 480px; 
+    height: 480px; 
+    
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px;
+    border: 2px solid black;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   
+}
+
+.claro {
+    background-color: #f0f0f0;
+}
+
+.oscuro {
+    background-color: #808080;
+}
+
+
+.letras{
+ 
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto ;
+  position: relative;
+  left: 30px;
+  column-gap: 52px;
+
+  
+}
+
+.letras2{
+ 
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto ;
+    position: relative;
+    bottom: 500px;
+   right: 30px;
+    column-gap: 52px;
+  
+    
+  }
+
+
+
+
+
+  .numeros{
+   display: grid;
+   row-gap: 42px;
+  }
+
+
+  .numeros2{
+    display: grid;
+    row-gap: 42px;
+    position: relative;
+    left: 500px;
+   }
+
+
+ 
+
+
+
